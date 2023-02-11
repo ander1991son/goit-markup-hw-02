@@ -6,8 +6,9 @@
   --anegrado-color: rgba(47, 48, 58, 1);
 }
 
-* {
+body {
   font-family: "Roboto", sans-serif;
+  color: var(--negro-color);
 }
 
 ul {
@@ -18,12 +19,16 @@ ul {
   text-decoration: none;
   color: var(--azul-color);
   font-size: 26px;
+  line-height: 30.52px;
+  font-weight: 700;
 }
 
 .header-navegacion {
   text-decoration: none;
   color: var(--negro-color);
   font-size: 14px;
+  line-height: 16.41px;
+  font-weight: 500;
 }
 .header-navegacion:hover {
   color: var(--azul-color);
@@ -33,6 +38,8 @@ ul {
   text-decoration: none;
   color: var(--gris-color);
   font-size: 14px;
+  line-height: 16.41px;
+  font-weight: 500;
 }
 .info:hover {
   color: var(--azul-color);
@@ -40,6 +47,8 @@ ul {
 
 h1 {
   color: var(--blanco-color);
+  line-height: 60px;
+  font-weight: 900;
 }
 
 .section-h3 {
@@ -53,6 +62,8 @@ button {
   color: var(--blanco-color);
   background-color: var(--azul-color);
   font-size: 16px;
+  line-height: 30px;
+  font-weight: 700;
 }
 botton:hover {
   color: var(--azul-color);
@@ -60,6 +71,7 @@ botton:hover {
 .button-porfolio {
   color: var(--negro-color);
   background: rgba(245, 244, 250, 1);
+  font-weight: 500;
   cursor: pointer;
 }
 .button-porfolio:hover {
@@ -69,6 +81,7 @@ botton:hover {
 h3 {
   color: var(--negro-color);
   font-size: 14px;
+  font-weight: 700;
 }
 
 .main-h3 {
@@ -78,19 +91,23 @@ h3 {
 .main-p {
   color: var(--gris-color);
   font-size: 14px;
+  font-weight: 400;
 }
 
 h2 {
   color: var(--negro-color);
   font-size: 36px;
+  font-weight: 700;
 }
 
 .portfolio-h2 {
   font-size: 18px;
+  font-weight: 700;
 }
 
 .porfolio-link {
   font-size: 16px;
+  font-weight: 400;
   color: var(--gris-color);
   text-decoration: none;
 }
@@ -98,20 +115,25 @@ h2 {
 h3 {
   color: var(--negro-color);
   font-size: 16px;
+  font-weight: 500;
 }
 
 .main-p {
   color: var(--gris-color);
   font-size: 16px;
+  font-weight: 400;
 }
 
 .footer-add {
   color: var(--gris-color);
   font-size: 14px;
+  font-weight: 400;
 }
 
 .pais {
   color: var(--blanco-color);
+  font-size: 14px;
+  font-weight: 400;
 }
 
 footer {
