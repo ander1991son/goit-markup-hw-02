@@ -1,0 +1,119 @@
+:root {
+  --azul-color: rgba(33, 150, 243, 1);
+  --negro-color: rgba(33, 33, 33, 1);
+  --gris-color: rgba(117, 117, 117, 1);
+  --blanco-color: rgba(255, 255, 255, 1);
+  --anegrado-color: rgba(47, 48, 58, 1);
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  text-decoration: none;
+  color: var(--azul-color);
+  font-size: 26px;
+}
+
+.header-navegacion {
+  text-decoration: none;
+  color: var(--negro-color);
+  font-size: 14px;
+}
+.header-navegacion:hover {
+  color: var(--azul-color);
+}
+
+.info {
+  text-decoration: none;
+  color: var(--gris-color);
+  font-size: 14px;
+}
+.info:hover {
+  color: var(--azul-color);
+}
+
+h1 {
+  color: var(--blanco-color);
+}
+
+.section-h3 {
+  background-color: rgba(47, 48, 58, 1);
+}
+.solution {
+  font-size: 44px;
+}
+
+button {
+  color: var(--blanco-color);
+  background-color: var(--azul-color);
+  font-size: 16px;
+}
+botton:hover {
+  color: var(--azul-color);
+}
+.button-porfolio {
+  color: var(--negro-color);
+  background: rgba(245, 244, 250, 1);
+  cursor: pointer;
+}
+.button-porfolio:hover {
+  color: var(--azul-color);
+}
+
+h3 {
+  color: var(--negro-color);
+  font-size: 14px;
+}
+
+.main-h3 {
+  color: var(--gris-color);
+}
+
+.main-p {
+  color: var(--gris-color);
+  font-size: 14px;
+}
+
+h2 {
+  color: var(--negro-color);
+  font-size: 36px;
+}
+
+.portfolio-h2 {
+  font-size: 18px;
+}
+
+.porfolio-link {
+  font-size: 16px;
+  color: var(--gris-color);
+  text-decoration: none;
+}
+
+h3 {
+  color: var(--negro-color);
+  font-size: 16px;
+}
+
+.main-p {
+  color: var(--gris-color);
+  font-size: 16px;
+}
+
+.footer-add {
+  color: var(--gris-color);
+  font-size: 14px;
+}
+
+.pais {
+  color: var(--blanco-color);
+}
+
+footer {
+  background-color: var(--anegrado-color);
+}
