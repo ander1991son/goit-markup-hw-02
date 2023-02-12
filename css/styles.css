@@ -1,14 +1,14 @@
 :root {
-  --azul-color: rgba(33, 150, 243, 1);
-  --negro-color: rgba(33, 33, 33, 1);
-  --gris-color: rgba(117, 117, 117, 1);
-  --blanco-color: rgba(255, 255, 255, 1);
-  --anegrado-color: rgba(47, 48, 58, 1);
+  --blue-color: rgba(33, 150, 243, 1);
+  --black-color: rgba(33, 33, 33, 1);
+  --grey-color: rgba(117, 117, 117, 1);
+  --white-color: rgba(255, 255, 255, 1);
+  --blackened-color: rgba(47, 48, 58, 1);
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  color: var(--negro-color);
+  font-family: 'Roboto', sans-serif;
+  color: var(--black-color);
 }
 
 ul {
@@ -17,36 +17,36 @@ ul {
 
 .logo {
   text-decoration: none;
-  color: var(--azul-color);
+  color: var(--blue-color);
   font-size: 26px;
   line-height: 30.52px;
   font-weight: 700;
 }
 
-.header-navegacion {
+.header-nav {
   text-decoration: none;
-  color: var(--negro-color);
+  color: var(--black-color);
   font-size: 14px;
   line-height: 16.41px;
   font-weight: 500;
 }
-.header-navegacion:hover {
-  color: var(--azul-color);
+.header-nav:hover {
+  color: var(--blue-color);
 }
 
-.info {
+.information {
   text-decoration: none;
-  color: var(--gris-color);
+  color: var(--grey-color);
   font-size: 14px;
   line-height: 16.41px;
   font-weight: 500;
 }
-.info:hover {
-  color: var(--azul-color);
+.information:hover {
+  color: var(--blue-color);
 }
 
 h1 {
-  color: var(--blanco-color);
+  color: var(--white-color);
   line-height: 60px;
   font-weight: 900;
 }
@@ -59,46 +59,46 @@ h1 {
 }
 
 button {
-  color: var(--blanco-color);
-  background-color: var(--azul-color);
+  color: var(--white-color);
+  background-color: var(--blue-color);
   font-size: 16px;
   line-height: 30px;
   font-weight: 700;
   cursor: pointer;
 }
-botton:hover {
-  color: var(--azul-color);
+.botton:hover {
+  color: var(--blue-color);
 }
 .button-porfolio {
-  color: var(--negro-color);
+  color: var(--black-color);
   background: rgba(245, 244, 250, 1);
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
 }
 .button-porfolio:hover {
-  color: var(--azul-color);
+  color: var(--blue-color);
 }
 
 h3 {
-  color: var(--negro-color);
+  color: var(--black-color);
   font-size: 14px;
   line-height: 16.41px;
   font-weight: 700;
 }
 
 .main-h3 {
-  color: var(--gris-color);
+  color: var(--grey-color);
 }
 
 .main-p {
-  color: var(--gris-color);
+  color: var(--grey-color);
   font-size: 14px;
   line-height: 24px;
 }
 
 h2 {
-  color: var(--negro-color);
+  color: var(--black-color);
   font-size: 36px;
   font-weight: 700;
   line-height: 42.19px;
@@ -118,38 +118,38 @@ h2 {
   font-size: 16px;
   font-weight: 400;
   line-height: 36px;
-  color: var(--gris-color);
+  color: var(--grey-color);
   text-decoration: none;
 }
 
 h3 {
-  color: var(--negro-color);
+  color: var(--black-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 18.75px;
 }
 
 .main-p {
-  color: var(--gris-color);
+  color: var(--grey-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 18.75px;
 }
 
 .footer-add {
-  color: var(--gris-color);
+  color: var(--grey-color);
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
 }
 
-.pais {
-  color: var(--blanco-color);
+.country {
+  color: var(--white-color);
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
 }
 
 footer {
-  background-color: var(--anegrado-color);
+  background-color: var(--blackened-color);
 }
